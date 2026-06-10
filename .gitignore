@@ -21,6 +21,11 @@ runs/
 # "copy" snapshots are ignored; the two canonical notebooks are tracked.
 *copy*.ipynb
 
+# ── Working scratch / AI-assisted reasoning logs (kept private) ───────
+AnitgravittyNotes.txt
+Claudes_Notes_Feb7259am.txt
+cursor_notebook_generation_from_ledbett.md
+
 # ── Sensitive: any thesis / umbc-thesis LaTeX renderings (Evernote) ───
 thesis/
 umbc-thesis/
