@@ -1,0 +1,28 @@
+# ── OS / editor noise ────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.log
+
+# ── Local agent scratch ───────────────────────────────────────────────
+.claude/
+
+# ── Heavy / regenerable artifacts ─────────────────────────────────────
+*.pt
+*.ckpt
+*.safetensors
+runs/
+*.zip
+
+# ── Large notebooks with embedded outputs (keep generators/markdown) ──
+# These .ipynb carry megabytes of inlined render output. The redundant
+# "copy" snapshots are ignored; the two canonical notebooks are tracked.
+*copy*.ipynb
+
+# ── Sensitive: any thesis / umbc-thesis LaTeX renderings (Evernote) ───
+thesis/
+umbc-thesis/
+**/thesis_figures/
+*.tex
